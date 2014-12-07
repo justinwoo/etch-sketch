@@ -83,8 +83,12 @@ var EtchSketch = React.createClass({
   },
 
   componentDidMount: function () {
-    var container = document.getElementsByClassName(this.props.className)[0];
-    container.onkeypress = this.handleKeyPress;
+    if (this.props.bindWindow) {
+      window.onkeypress = this.handleKeyPress;
+    } else {
+      var container = document.getElementsByClassName(this.props.className)[0];
+      container.onkeypress = this.handleKeyPress;
+    }
   },
 
   handleKeyPress: function (e) {
