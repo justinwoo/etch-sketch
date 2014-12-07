@@ -4,7 +4,9 @@ var EtchSketch = require('kimagure-etch-sketch');
 var App = React.createClass({
   render: function () {
     return (
-      <EtchSketch/>
+      <div>
+        <EtchSketch/>
+      </div>
     );
   }
 });
