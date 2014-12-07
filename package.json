@@ -1,0 +1,20 @@
+{
+  "name": "kimagure-etch-sketch",
+  "version": "0.0.1",
+  "description": "Etch-A-Sketch React Component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimagure/etch-sketch.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Justin Woo",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^0.1.37",
+    "jest-cli": "^0.1.18",
+    "react": "^0.12.1"
+  }
+}
