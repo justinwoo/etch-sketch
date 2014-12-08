@@ -5,6 +5,7 @@ var App = React.createClass({
   render: function () {
     return (
       <div>
+        <h2>Test out the etch a sketch below: (press ? for help)</h2>
         <EtchSketch bindWindow={true}/>
       </div>
     );
